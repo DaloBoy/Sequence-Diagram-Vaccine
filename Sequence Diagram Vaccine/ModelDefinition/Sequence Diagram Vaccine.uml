@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
   dslVersion="1.0.0.0"
   Id="2a3c2e6c-691c-4661-937e-b891cee565fb"
   name="Sequence Diagram Vaccine" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -17,28 +17,982 @@
         name="StandardProfileL3" />
     </packageHasProfileInstances>
   </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction
+        Id="06d94d76-d919-4b1b-8721-864a80faac60"
+        name="VaccineSequenceDiagram"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="0908bd3c-a702-4d08-b710-d9905f12c386"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="9e7759d1-3f53-479a-bc8f-da126d0ae628"
+                LastKnownName=": ViewModel"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="88907d1b-bb62-4ffb-b951-61789ceb01c5"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="cbec4ea0-a08a-4392-ae24-9d9f74eca349"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="231f9e37-6a63-49ac-8969-c01d5a32e374"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="64ce9609-4a1e-49bf-9ae0-bb6400dba50a"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="9aa9da0b-eebe-41c2-8787-57c901a4eb69"
+                LastKnownName="ExecutionOccurrenceSpecification23"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f66be7d8-24a8-4608-a477-faf9aa942e6e"
+                LastKnownName="ExecutionOccurrenceSpecification24"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8a5da448-0ca4-4b64-a391-8561a1791697"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="cbec4ea0-a08a-4392-ae24-9d9f74eca349"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0e5c7ef6-53d6-43cc-933f-826881561660"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9e7759d1-3f53-479a-bc8f-da126d0ae628"
+                LastKnownName=": ViewModel"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cc7e5de0-4216-4fa1-94ee-08acd5f2f32d"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="1ccb93b1-84f2-4cfa-84a1-ec4c70aeb1fd"
+                LastKnownName=": Bruger"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="231f9e37-6a63-49ac-8969-c01d5a32e374"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="9e7759d1-3f53-479a-bc8f-da126d0ae628"
+                LastKnownName=": ViewModel"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="80ee0c58-4bbb-4ae5-8181-5bf06a80c9b0"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="6a290e87-cd7b-48f8-a76b-cdee2bf9c93c"
+                LastKnownName=": Opret"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="1fe706c9-73ec-42ea-b7df-1e2efc864cd9"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="810258b1-d4b3-4259-b2d8-5d1ebc153438"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="544a67e4-3757-426c-87e0-7c603e518d52"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="cd6ffb86-d21a-4672-9540-dbb23cbeec68"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="810258b1-d4b3-4259-b2d8-5d1ebc153438"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b85eccb2-d5ce-4578-ae12-7d376e7e8dd8"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a290e87-cd7b-48f8-a76b-cdee2bf9c93c"
+                LastKnownName=": Opret"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="544a67e4-3757-426c-87e0-7c603e518d52"
+            name="MessageOccurrenceSpecification22">
+            <covered>
+              <lifelineMoniker
+                Id="6a290e87-cd7b-48f8-a76b-cdee2bf9c93c"
+                LastKnownName=": Opret"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="64ce9609-4a1e-49bf-9ae0-bb6400dba50a"
+            name="MessageOccurrenceSpecification21">
+            <covered>
+              <lifelineMoniker
+                Id="9e7759d1-3f53-479a-bc8f-da126d0ae628"
+                LastKnownName=": ViewModel"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="19ccad2a-c54b-4ca3-93b6-91338870f91b"
+            name="BehaviorExecutionSpecification7">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="dbc4217e-4e25-4dbb-ae19-a8ec6d867f0a"
+                LastKnownName=": Indstillinger"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="2784846d-ade0-40cb-87ae-949d7a3e1e5d"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="fd4dcc2a-ab62-4955-a525-1cc4e8b5ba29"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="38fb498a-817a-4864-833a-ef3645aa199a"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="96af7cf2-3ec1-4952-90f6-4e166d129596"
+                LastKnownName="MessageOccurrenceSpecification47"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="174926af-3e7b-469e-9f8c-f39e22459159"
+                LastKnownName="MessageOccurrenceSpecification50"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="915cc324-c0ca-425f-9237-04af65abf35b"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8009ac63-44b4-4822-a6dd-a776e537fba2"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="10e4d9b6-5f00-45b4-b84a-4209474757ba"
+                LastKnownName="MessageOccurrenceSpecification39"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="fd4dcc2a-ab62-4955-a525-1cc4e8b5ba29"
+            name="ExecutionOccurrenceSpecification13">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="651ce8b0-ec21-4a65-aac8-4b2af1590b35"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="dbc4217e-4e25-4dbb-ae19-a8ec6d867f0a"
+                LastKnownName=": Indstillinger"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="38fb498a-817a-4864-833a-ef3645aa199a"
+            name="MessageOccurrenceSpecification24">
+            <covered>
+              <lifelineMoniker
+                Id="dbc4217e-4e25-4dbb-ae19-a8ec6d867f0a"
+                LastKnownName=": Indstillinger"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cd6ffb86-d21a-4672-9540-dbb23cbeec68"
+            name="MessageOccurrenceSpecification23">
+            <covered>
+              <lifelineMoniker
+                Id="6a290e87-cd7b-48f8-a76b-cdee2bf9c93c"
+                LastKnownName=": Opret"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="1aeab812-b0c5-443f-85d1-bc0f0f588e31"
+            name="BehaviorExecutionSpecification15">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="f849cdba-2a93-428a-914e-ebf0c0f5bb9b"
+                LastKnownName=": Database"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="be9d844c-6e64-42ae-becd-908a2c4057a7"
+                LastKnownName="ExecutionOccurrenceSpecification30"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="5316f2fe-0ed2-4958-9397-786e0239bbfc"
+                LastKnownName="ExecutionOccurrenceSpecification29"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f22711d0-acc5-4941-afc9-411b09a630bf"
+                LastKnownName="MessageOccurrenceSpecification48"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="af7d37a8-ae4d-4d49-b663-4579e3c3ca81"
+                LastKnownName="MessageOccurrenceSpecification49"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="1fe706c9-73ec-42ea-b7df-1e2efc864cd9"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0608c9b4-09fe-4612-b7ed-c0190ea78962"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a290e87-cd7b-48f8-a76b-cdee2bf9c93c"
+                LastKnownName=": Opret"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="5316f2fe-0ed2-4958-9397-786e0239bbfc"
+            name="ExecutionOccurrenceSpecification29">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="e05ebfc8-10d6-4e76-bbe1-ffab5faba9c8"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f849cdba-2a93-428a-914e-ebf0c0f5bb9b"
+                LastKnownName=": Database"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f22711d0-acc5-4941-afc9-411b09a630bf"
+            name="MessageOccurrenceSpecification48">
+            <covered>
+              <lifelineMoniker
+                Id="f849cdba-2a93-428a-914e-ebf0c0f5bb9b"
+                LastKnownName=": Database"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="96af7cf2-3ec1-4952-90f6-4e166d129596"
+            name="MessageOccurrenceSpecification47">
+            <covered>
+              <lifelineMoniker
+                Id="dbc4217e-4e25-4dbb-ae19-a8ec6d867f0a"
+                LastKnownName=": Indstillinger"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="174926af-3e7b-469e-9f8c-f39e22459159"
+            name="MessageOccurrenceSpecification50">
+            <covered>
+              <lifelineMoniker
+                Id="dbc4217e-4e25-4dbb-ae19-a8ec6d867f0a"
+                LastKnownName=": Indstillinger"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="af7d37a8-ae4d-4d49-b663-4579e3c3ca81"
+            name="MessageOccurrenceSpecification49">
+            <covered>
+              <lifelineMoniker
+                Id="f849cdba-2a93-428a-914e-ebf0c0f5bb9b"
+                LastKnownName=": Database"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="be9d844c-6e64-42ae-becd-908a2c4057a7"
+            name="ExecutionOccurrenceSpecification30">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d12c9265-e5c7-42b9-8340-562b24bd5652"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f849cdba-2a93-428a-914e-ebf0c0f5bb9b"
+                LastKnownName=": Database"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="db0f2ce7-a90a-4884-a483-04b3483b3a39"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="d7d6ed67-64b9-4ba6-be32-a0f0be786ad5"
+                LastKnownName=": Påmindelse"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="77742a9a-890c-4488-bcf1-1e7183ac94e8"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="d14d827c-6dff-4a73-9022-fa3115ba9b53"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="af5d0ff8-55f6-42cb-8d82-2443592cecf3"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9391b63b-5486-4ac1-b162-8d9e78527329"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="d14d827c-6dff-4a73-9022-fa3115ba9b53"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="145d9a77-51da-473b-b0bf-2807aea6c216"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="d7d6ed67-64b9-4ba6-be32-a0f0be786ad5"
+                LastKnownName=": Påmindelse"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="af5d0ff8-55f6-42cb-8d82-2443592cecf3"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="d7d6ed67-64b9-4ba6-be32-a0f0be786ad5"
+                LastKnownName=": Påmindelse"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="915cc324-c0ca-425f-9237-04af65abf35b"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="dbc4217e-4e25-4dbb-ae19-a8ec6d867f0a"
+                LastKnownName=": Indstillinger"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9391b63b-5486-4ac1-b162-8d9e78527329"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="d7d6ed67-64b9-4ba6-be32-a0f0be786ad5"
+                LastKnownName=": Påmindelse"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8009ac63-44b4-4822-a6dd-a776e537fba2"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="dbc4217e-4e25-4dbb-ae19-a8ec6d867f0a"
+                LastKnownName=": Indstillinger"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="77742a9a-890c-4488-bcf1-1e7183ac94e8"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b5d9d4bb-5f12-42fd-98ec-541eeec78d58"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="d7d6ed67-64b9-4ba6-be32-a0f0be786ad5"
+                LastKnownName=": Påmindelse"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="fa55f7ff-93d8-4b5c-a526-cd42d2a86dfe"
+            name="BehaviorExecutionSpecification12">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="9e7759d1-3f53-479a-bc8f-da126d0ae628"
+                LastKnownName=": ViewModel"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="f66be7d8-24a8-4608-a477-faf9aa942e6e"
+                LastKnownName="ExecutionOccurrenceSpecification24"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="9aa9da0b-eebe-41c2-8787-57c901a4eb69"
+                LastKnownName="ExecutionOccurrenceSpecification23"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="25428d5f-ca26-41d7-a837-ec59f5325139"
+                LastKnownName="MessageOccurrenceSpecification40"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="9aa9da0b-eebe-41c2-8787-57c901a4eb69"
+            name="ExecutionOccurrenceSpecification23">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="84d13015-e3cf-49af-ac09-3360caea9667"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9e7759d1-3f53-479a-bc8f-da126d0ae628"
+                LastKnownName=": ViewModel"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="25428d5f-ca26-41d7-a837-ec59f5325139"
+            name="MessageOccurrenceSpecification40">
+            <covered>
+              <lifelineMoniker
+                Id="9e7759d1-3f53-479a-bc8f-da126d0ae628"
+                LastKnownName=": ViewModel"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="10e4d9b6-5f00-45b4-b84a-4209474757ba"
+            name="MessageOccurrenceSpecification39">
+            <covered>
+              <lifelineMoniker
+                Id="dbc4217e-4e25-4dbb-ae19-a8ec6d867f0a"
+                LastKnownName=": Indstillinger"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="2784846d-ade0-40cb-87ae-949d7a3e1e5d"
+            name="ExecutionOccurrenceSpecification14">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="152f94c5-f701-414f-8cb2-5264f728a9dd"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="dbc4217e-4e25-4dbb-ae19-a8ec6d867f0a"
+                LastKnownName=": Indstillinger"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="f66be7d8-24a8-4608-a477-faf9aa942e6e"
+            name="ExecutionOccurrenceSpecification24">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="34edc82f-cec2-4e97-a89e-c8ceea6c19e1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9e7759d1-3f53-479a-bc8f-da126d0ae628"
+                LastKnownName=": ViewModel"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="03abf253-390a-438e-a0ba-5a3f596a55df"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="1ccb93b1-84f2-4cfa-84a1-ec4c70aeb1fd"
+                LastKnownName=": Bruger"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8a5da448-0ca4-4b64-a391-8561a1791697"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="9e7759d1-3f53-479a-bc8f-da126d0ae628"
+                LastKnownName=": ViewModel"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="88907d1b-bb62-4ffb-b951-61789ceb01c5"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="624e85c8-92a7-4100-8a9f-b323b5429f14"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="9e7759d1-3f53-479a-bc8f-da126d0ae628"
+                LastKnownName=": ViewModel"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="1ccb93b1-84f2-4cfa-84a1-ec4c70aeb1fd"
+            name=": Bruger"
+            isActor="false"
+            lifelineDisplayName=": Bruger">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="cc7e5de0-4216-4fa1-94ee-08acd5f2f32d"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="03abf253-390a-438e-a0ba-5a3f596a55df"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="9e7759d1-3f53-479a-bc8f-da126d0ae628"
+            name=": ViewModel"
+            isActor="false"
+            lifelineDisplayName=": ViewModel">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="cbec4ea0-a08a-4392-ae24-9d9f74eca349"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="88907d1b-bb62-4ffb-b951-61789ceb01c5"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="6a290e87-cd7b-48f8-a76b-cdee2bf9c93c"
+            name=": Opret"
+            isActor="false"
+            lifelineDisplayName=": Opret">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="810258b1-d4b3-4259-b2d8-5d1ebc153438"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="1fe706c9-73ec-42ea-b7df-1e2efc864cd9"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="dbc4217e-4e25-4dbb-ae19-a8ec6d867f0a"
+            name=": Indstillinger"
+            isActor="false"
+            lifelineDisplayName=": Indstillinger">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="fd4dcc2a-ab62-4955-a525-1cc4e8b5ba29"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="2784846d-ade0-40cb-87ae-949d7a3e1e5d"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="d7d6ed67-64b9-4ba6-be32-a0f0be786ad5"
+            name=": Påmindelse"
+            isActor="false"
+            lifelineDisplayName=": Påmindelse">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="d14d827c-6dff-4a73-9022-fa3115ba9b53"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="77742a9a-890c-4488-bcf1-1e7183ac94e8"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="f849cdba-2a93-428a-914e-ebf0c0f5bb9b"
+            name=": Database"
+            isActor="false"
+            lifelineDisplayName=": Database">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="5316f2fe-0ed2-4958-9397-786e0239bbfc"
+                LastKnownName="ExecutionOccurrenceSpecification29"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="be9d844c-6e64-42ae-becd-908a2c4057a7"
+                LastKnownName="ExecutionOccurrenceSpecification30"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="0640c465-6a56-4a34-b019-7810440b211c"
+            name="Navigere()"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cc7e5de0-4216-4fa1-94ee-08acd5f2f32d"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="231f9e37-6a63-49ac-8969-c01d5a32e374"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3de67771-5d2a-4d26-b13b-1b8e8b8a2134"
+            name="OpretBarn(int ID, string Name)"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="64ce9609-4a1e-49bf-9ae0-bb6400dba50a"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="544a67e4-3757-426c-87e0-7c603e518d52"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="03cf5c0d-117e-4923-95d2-57c1f0b3100d"
+            name="CreateBarn(int ID, string Name)"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cd6ffb86-d21a-4672-9540-dbb23cbeec68"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="38fb498a-817a-4864-833a-ef3645aa199a"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="c53067a6-7a34-4431-a363-eab18f932e89"
+            name="GetBarn (int ID, string Navn)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="96af7cf2-3ec1-4952-90f6-4e166d129596"
+                LastKnownName="MessageOccurrenceSpecification47"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f22711d0-acc5-4941-afc9-411b09a630bf"
+                LastKnownName="MessageOccurrenceSpecification48"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="a4e7e08b-bd9e-419e-b6a8-503024a17285"
+            name="&lt;&lt;Barn er oprettet&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="af7d37a8-ae4d-4d49-b663-4579e3c3ca81"
+                LastKnownName="MessageOccurrenceSpecification49"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="174926af-3e7b-469e-9f8c-f39e22459159"
+                LastKnownName="MessageOccurrenceSpecification50"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="581b2777-b7cd-4a6e-9827-826b49b321e1"
+            name="GetPåmindelse(Date, Time, Navn, ID)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="915cc324-c0ca-425f-9237-04af65abf35b"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="af5d0ff8-55f6-42cb-8d82-2443592cecf3"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="dd1238b3-eda4-488d-9860-51a56e9aeab3"
+            name="&lt;&lt;Påmindelse Oprettet&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9391b63b-5486-4ac1-b162-8d9e78527329"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8009ac63-44b4-4822-a6dd-a776e537fba2"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e2535f8f-0fd5-42a5-a543-b9a1c3e056b6"
+            name="&lt;&lt;return indstillinger&gt;&gt;"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="10e4d9b6-5f00-45b4-b84a-4209474757ba"
+                LastKnownName="MessageOccurrenceSpecification39"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="25428d5f-ca26-41d7-a837-ec59f5325139"
+                LastKnownName="MessageOccurrenceSpecification40"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="5ef0124a-180d-4215-abe6-fe6162ff8f20"
+            name="&lt;&lt;Påmindelse om Vaccine&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8a5da448-0ca4-4b64-a391-8561a1791697"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="03abf253-390a-438e-a0ba-5a3f596a55df"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="Sequence Diagram Vaccine.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0e5c7ef6-53d6-43cc-933f-826881561660"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="624e85c8-92a7-4100-8a9f-b323b5429f14"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b85eccb2-d5ce-4578-ae12-7d376e7e8dd8"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0608c9b4-09fe-4612-b7ed-c0190ea78962"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="651ce8b0-ec21-4a65-aac8-4b2af1590b35"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="152f94c5-f701-414f-8cb2-5264f728a9dd"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="84d13015-e3cf-49af-ac09-3360caea9667"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="34edc82f-cec2-4e97-a89e-c8ceea6c19e1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="e05ebfc8-10d6-4e76-bbe1-ffab5faba9c8"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d12c9265-e5c7-42b9-8340-562b24bd5652"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="145d9a77-51da-473b-b0bf-2807aea6c216"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b5d9d4bb-5f12-42fd-98ec-541eeec78d58"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"
     name="Integer"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
     name="Boolean"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
     name="String"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
     name="UnlimitedNatural"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
 </modelStoreModel>
